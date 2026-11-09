@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meus sites</title>
+<style>
+:root{--bg:#f3f5f9;--card:#ffffff;--text:#14213d;--muted:#4a5878;--line:#d7deea;--focus:#1d4ed8}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0f1626;--card:#1a2338;--text:#eef2fb;--muted:#a7b3cf;--line:#2b3753;--focus:#7aa2ff}
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Trebuchet MS","Segoe UI",Verdana,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:48px 20px 64px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px}
+.site{display:flex;flex-direction:column;align-items:center;gap:18px;padding:28px 16px 24px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+/* h1 a h5 com a mesma aparência */
+h1,h2,h3,h4,h5{font-size:1.2rem;font-weight:700;margin:0;text-align:center;color:var(--text)}
+img{width:112px;height:112px;display:block}
+a{color:var(--muted);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}
+.url{font-size:.92rem;word-break:break-all;text-align:center}
+</style>
+</head>
+<body>
+<main>
+  <div class="grid">
+
+    <div class="site">
+      <h1>Centro Paula Souza</h1>
+      <a href="https://www.cps.sp.gov.br" target="_blank" rel="noopener">
+        <img alt="Logo do Centro Paula Souza" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 112'><rect width='112' height='112' rx='22' fill='%23b3122b'/><rect x='14' y='14' width='84' height='84' rx='14' fill='none' stroke='white' stroke-width='3'/><text x='56' y='68' text-anchor='middle' font-family='Arial Black,Arial,sans-serif' font-weight='900' font-size='34' fill='white'>CPS</text><text x='56' y='86' text-anchor='middle' font-family='Arial,sans-serif' font-size='9' fill='white'>Paula Souza</text></svg>">
+      </a>
+      <a class="url" href="https://www.cps.sp.gov.br" target="_blank" rel="noopener">www.cps.sp.gov.br</a>
+    </div>
+
+    <div class="site">
+      <h2>YouTube</h2>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener">
+        <img alt="Logo do YouTube" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 112'><rect x='6' y='26' width='100' height='70' rx='20' fill='%23ff0000'/><polygon points='45,42 45,80 78,61' fill='white'/></svg>">
+      </a>
+      <a class="url" href="https://www.youtube.com" target="_blank" rel="noopener">www.youtube.com</a>
+    </div>
+
+    <div class="site">
+      <h3>Google</h3>
+      <a href="https://www.google.com" target="_blank" rel="noopener">
+        <img alt="Logo do Google" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 112'><circle cx='56' cy='56' r='52' fill='white' stroke='%23d7deea' stroke-width='2'/><path d='M56 92 A36 36 0 0 0 92 56' fill='none' stroke='%234285f4' stroke-width='16'/><path d='M56 92 A36 36 0 0 1 28 78' fill='none' stroke='%2334a853' stroke-width='16'/><path d='M28 78 A36 36 0 0 1 28 34' fill='none' stroke='%23fbbc05' stroke-width='16'/><path d='M28 34 A36 36 0 0 1 80 26' fill='none' stroke='%23ea4335' stroke-width='16'/><rect x='56' y='48' width='38' height='16' fill='%234285f4'/></svg>">
+      </a>
+      <a class="url" href="https://www.google.com" target="_blank" rel="noopener">www.google.com</a>
+    </div>
+
+    <div class="site">
+      <h4>Instagram</h4>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">
+        <img alt="Logo do Instagram" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 112'><defs><linearGradient id='g' x1='0' y1='1' x2='1' y2='0'><stop offset='0' stop-color='%23fdcb52'/><stop offset='.35' stop-color='%23f5603b'/><stop offset='.65' stop-color='%23d6249f'/><stop offset='1' stop-color='%234f5bd5'/></linearGradient></defs><rect x='6' y='6' width='100' height='100' rx='28' fill='url(%23g)'/><rect x='26' y='26' width='60' height='60' rx='18' fill='none' stroke='white' stroke-width='6'/><circle cx='56' cy='56' r='14' fill='none' stroke='white' stroke-width='6'/><circle cx='75' cy='37' r='4' fill='white'/></svg>">
+      </a>
+      <a class="url" href="https://www.instagram.com" target="_blank" rel="noopener">www.instagram.com</a>
+    </div>
+
+    <div class="site">
+      <h5>LinkedIn</h5>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener">
+        <img alt="Logo do LinkedIn" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 112 112'><rect x='6' y='6' width='100' height='100' rx='18' fill='%230a66c2'/><rect x='24' y='46' width='12' height='40' fill='white'/><circle cx='30' cy='32' r='7.5' fill='white'/><path d='M46 46h11v5.5c2-3.6 6-6.5 12-6.5 11 0 15 7 15 17v24H72V64c0-5-1.5-8-6-8s-8 3-8 9v21H46z' fill='white'/></svg>">
+      </a>
+      <a class="url" href="https://www.linkedin.com" target="_blank" rel="noopener">www.linkedin.com</a>
+    </div>
+
+  </div>
+</main>
+</body>
+</html>
